@@ -60,7 +60,7 @@ export const personalInfo: PersonalInfo = {
   github: "github.com/PronoyDutta",
   website: "scholar.google.com/citations?user=x0fnNYkAAAAJ&hl=en&authuser=1",
   location: "Salzburg, Austria",
-  summary: "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन| Passionate software engineer with 8+ years of experience in full-stack development and machine learning research. Proven track record of leading high-impact projects and publishing cutting-edge research in top-tier venues.",
+  summary: "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन",
   profilePhoto: "https://github.com/PronoyDutta/Images/blob/main/PXL_20230304_103229653.PORTRAIT%20-%20Copy.jpg"
 };
 
