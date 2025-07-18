@@ -61,7 +61,7 @@ export const personalInfo: PersonalInfo = {
   website: "scholar.google.com/citations?user=x0fnNYkAAAAJ&hl=en&authuser=1",
   location: "Salzburg, Austria",
   summary: "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन",
-  profilePhoto: "https://github.com/PronoyDutta/Images/blob/main/PXL_20230304_103229653.PORTRAIT%20-%20Copy.jpg"
+  profilePhoto: "https://raw.githubusercontent.com/PronoyDutta/Images/main/PXL_20230304_103229653.PORTRAIT%20-%20Copy.jpg"
 };
 
 export const recentActivities: Activity[] = [
