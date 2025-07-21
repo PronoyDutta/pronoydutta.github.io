@@ -47,7 +47,7 @@ As I continue this research, I'm excited about the potential for NAS to democrat
     category: "research",
     tags: ["Neural Architecture Search", "Machine Learning", "AI Research", "PhD Journey"],
     readTime: "8 min read",
-    published: true
+    published: false
   },
   {
     id: "building-scalable-ml-systems",
@@ -85,7 +85,7 @@ The most important lesson: technology is only part of the solution. Building tru
     category: "blog",
     tags: ["MLOps", "Production ML", "Scalability", "Engineering"],
     readTime: "12 min read",
-    published: true
+    published: false
   },
   {
     id: "future-of-ai-development",
