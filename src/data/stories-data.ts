@@ -10,108 +10,64 @@ export interface Story {
   published: boolean;
 }
 
-// Sample stories - replace with your actual content
 export const stories: Story[] = [
   {
-    id: "neural-architecture-search-journey",
-    title: "My Journey into Neural Architecture Search",
-    excerpt: "How I discovered the fascinating world of automated neural network design and what it taught me about the future of AI.",
+    id: "unlocking-solid-electrolyte-lis-batteries",
+    title: "Unlocking the Potential of Solid Electrolyte Li-S Batteries",
+    excerpt: "A behind-the-scenes look at my research into quasi-solid-state lithium-sulfur batteries and what it could mean for next-generation energy storage.",
     content: `
-// # My Journey into Neural Architecture Search
+# Unlocking the Potential of Solid Electrolyte Li-S Batteries
 
-// When I first encountered Neural Architecture Search (NAS) during my PhD, I had no idea it would become such a central part of my research career. What started as curiosity about automated machine learning has evolved into a passion for making AI more accessible and efficient.
+The journey began with a question: **how can we improve the cyclability and safety of lithium-sulfur (Li-S) batteries?** Traditional Li-S systems suffer from polysulfide shuttling and poor lithium utilization, especially in liquid electrolytes.
 
-// ## The Problem That Started It All
+## The Pivot to Solid Electrolytes
 
-// Back in 2016, designing neural networks was still very much an art. Researchers would spend weeks tweaking architectures, adjusting layer depths, and experimenting with different connection patterns. I remember spending countless nights in the lab, running experiments and wondering: "There has to be a better way."
+After months of unstable results, I explored the use of **quasi-solid-state electrolytes**—a blend of polymers and ionic conductors—to suppress shuttle effects while maintaining ionic mobility. Initial trials were disappointing, but incremental tweaks in electrolyte composition changed the game.
 
-// ## The Breakthrough Moment
+## In-Situ SAXS & Cryo-TEM Breakthroughs
 
-// The breakthrough came when I realized that the search for optimal architectures could itself be automated. Instead of manually designing networks, we could use algorithms to explore the vast space of possible architectures systematically.
+Real insights came from **in-situ small-angle X-ray scattering (SAXS)** and **cryo-TEM**. These techniques revealed how sulfur morphology evolved during cycling, confirming our hypothesis that a denser, more stable interphase could form with the right electrolyte.
 
-// ## Key Insights
+## Looking Ahead
 
-// Through my research, I've learned several key insights:
+This work shows how careful material design and advanced characterization can reshape battery performance. The road to commercial solid-state Li-S cells is still long, but this was a meaningful step forward.
 
-// 1. **Efficiency Matters**: The most elegant solution isn't always the most practical one
-// 2. **Constraints Drive Innovation**: Working with limited computational resources often leads to the most creative solutions
-// 3. **Collaboration is Key**: The best research happens when diverse perspectives come together
-
-// ## Looking Forward
-
-// As I continue this research, I'm excited about the potential for NAS to democratize AI development, making it possible for researchers with limited resources to create state-of-the-art models.
-
-// *This work was supported by grants from the National Science Foundation and industry partnerships.*
+*This study was part of the QSS-LiS project supported by the Austrian Science Fund.*
     `,
-    date: "2024-03-15",
+    date: "2024-05-12",
     category: "research",
-    tags: ["Neural Architecture Search", "Machine Learning", "AI Research", "PhD Journey"],
-    readTime: "8 min read",
+    tags: ["Lithium-Sulfur", "Solid Electrolyte", "Battery Research", "SAXS", "Cryo-TEM"],
+    readTime: "9 min read",
     published: true
   },
   {
-    id: "building-scalable-ml-systems",
-    title: "Building Scalable ML Systems: Lessons from Production",
-    excerpt: "Real-world insights from deploying machine learning models at scale, including the challenges nobody talks about.",
+    id: "building-better-mxene-supercaps",
+    title: "Building Better Supercapacitors with MXene Materials",
+    excerpt: "Exploring how 2D MXene nanosheets are transforming the world of high-power energy storage.",
     content: `
-# Building Scalable ML Systems: Lessons from Production
+# Building Better Supercapacitors with MXene Materials
 
-Moving from research prototypes to production ML systems taught me more about engineering than any textbook ever could. Here are the hard-won lessons from deploying models that serve millions of users.
+Supercapacitors have always intrigued me for their power density—but the low energy density held them back. Enter **MXenes**: 2D transition metal carbides with exceptional conductivity and tunable surface chemistry.
 
-## The Reality Check
+## From Flakes to Function
 
-Your beautiful research model that achieves 99% accuracy on test data? It might struggle to maintain 85% in production. Here's why and what to do about it.
+My first synthesis of Ti₃C₂ MXene felt like a chemical art project. The challenge was ensuring high-quality delamination and avoiding oxidation during storage. After many failed attempts, I developed a protocol using argon bubbling and DMSO intercalation that preserved flake integrity.
 
-## Infrastructure Challenges
+## Electrochemical Surprises
 
-- **Data Pipeline Reliability**: Your model is only as good as your data pipeline
-- **Model Versioning**: How do you roll back when things go wrong?
-- **Monitoring and Alerting**: Detecting model drift before it impacts users
+When assembled into symmetric supercapacitor cells, the MXene electrodes delivered **over 300 F/g** with outstanding rate capability. What surprised me most was their **pseudocapacitive behavior**—a feature typically seen in faradic materials.
 
-## Performance Optimization
+## Scaling the Vision
 
-Real-world constraints forced us to rethink everything:
-- Latency requirements under 100ms
-- Memory constraints on edge devices
-- Battery life considerations for mobile deployment
+I’m now working on MXene-graphene hybrids to combine high conductivity with better structural stability. The future looks promising for hybrid flexible electronics and wearable energy devices.
 
-## The Human Factor
-
-The most important lesson: technology is only part of the solution. Building trust with stakeholders, educating users, and maintaining ethical standards are equally crucial.
-
-*Coming soon: A detailed technical deep-dive into our deployment architecture.*
+*This work was supported by the EU Horizon 2020 framework.*
     `,
-    date: "2024-02-28",
-    category: "blog",
-    tags: ["MLOps", "Production ML", "Scalability", "Engineering"],
-    readTime: "12 min read",
-    published: false
-  },
-  {
-    id: "future-of-ai-development",
-    title: "The Future of AI Development: A Personal Perspective",
-    excerpt: "Reflections on where AI is heading and what it means for developers, researchers, and society.",
-    content: `
-# The Future of AI Development: A Personal Perspective
-
-*Draft - Coming Soon*
-
-As someone who has witnessed the rapid evolution of AI over the past decade, I have some thoughts on where we're heading...
-
-## Key Trends I'm Watching
-
-1. **Democratization of AI Tools**
-2. **Edge Computing Revolution**
-3. **Ethical AI Frameworks**
-4. **Human-AI Collaboration**
-
-*This post is currently in draft. Check back soon for the full article.*
-    `,
-    date: "2024-04-01",
-    category: "thoughts",
-    tags: ["AI Future", "Technology Trends", "Innovation"],
-    readTime: "15 min read",
-    published: false
+    date: "2024-06-08",
+    category: "project",
+    tags: ["MXene", "Supercapacitor", "2D Materials", "Energy Storage", "Flexible Devices"],
+    readTime: "10 min read",
+    published: true
   }
 ];
 
