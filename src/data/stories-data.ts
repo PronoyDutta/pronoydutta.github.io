@@ -17,37 +17,37 @@ export const stories: Story[] = [
     title: "My Journey into Neural Architecture Search",
     excerpt: "How I discovered the fascinating world of automated neural network design and what it taught me about the future of AI.",
     content: `
-# My Journey into Neural Architecture Search
+// # My Journey into Neural Architecture Search
 
-When I first encountered Neural Architecture Search (NAS) during my PhD, I had no idea it would become such a central part of my research career. What started as curiosity about automated machine learning has evolved into a passion for making AI more accessible and efficient.
+// When I first encountered Neural Architecture Search (NAS) during my PhD, I had no idea it would become such a central part of my research career. What started as curiosity about automated machine learning has evolved into a passion for making AI more accessible and efficient.
 
-## The Problem That Started It All
+// ## The Problem That Started It All
 
-Back in 2016, designing neural networks was still very much an art. Researchers would spend weeks tweaking architectures, adjusting layer depths, and experimenting with different connection patterns. I remember spending countless nights in the lab, running experiments and wondering: "There has to be a better way."
+// Back in 2016, designing neural networks was still very much an art. Researchers would spend weeks tweaking architectures, adjusting layer depths, and experimenting with different connection patterns. I remember spending countless nights in the lab, running experiments and wondering: "There has to be a better way."
 
-## The Breakthrough Moment
+// ## The Breakthrough Moment
 
-The breakthrough came when I realized that the search for optimal architectures could itself be automated. Instead of manually designing networks, we could use algorithms to explore the vast space of possible architectures systematically.
+// The breakthrough came when I realized that the search for optimal architectures could itself be automated. Instead of manually designing networks, we could use algorithms to explore the vast space of possible architectures systematically.
 
-## Key Insights
+// ## Key Insights
 
-Through my research, I've learned several key insights:
+// Through my research, I've learned several key insights:
 
-1. **Efficiency Matters**: The most elegant solution isn't always the most practical one
-2. **Constraints Drive Innovation**: Working with limited computational resources often leads to the most creative solutions
-3. **Collaboration is Key**: The best research happens when diverse perspectives come together
+// 1. **Efficiency Matters**: The most elegant solution isn't always the most practical one
+// 2. **Constraints Drive Innovation**: Working with limited computational resources often leads to the most creative solutions
+// 3. **Collaboration is Key**: The best research happens when diverse perspectives come together
 
-## Looking Forward
+// ## Looking Forward
 
-As I continue this research, I'm excited about the potential for NAS to democratize AI development, making it possible for researchers with limited resources to create state-of-the-art models.
+// As I continue this research, I'm excited about the potential for NAS to democratize AI development, making it possible for researchers with limited resources to create state-of-the-art models.
 
-*This work was supported by grants from the National Science Foundation and industry partnerships.*
+// *This work was supported by grants from the National Science Foundation and industry partnerships.*
     `,
     date: "2024-03-15",
     category: "research",
     tags: ["Neural Architecture Search", "Machine Learning", "AI Research", "PhD Journey"],
     readTime: "8 min read",
-    published: false
+    published: true
   },
   {
     id: "building-scalable-ml-systems",
