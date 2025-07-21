@@ -32,7 +32,6 @@ Real insights came from **in-situ small-angle X-ray scattering (SAXS)** and **cr
 
 This work shows how careful material design and advanced characterization can reshape battery performance. The road to commercial solid-state Li-S cells is still long, but this was a meaningful step forward.
 
-*This study was part of the QSS-LiS project supported by the Austrian Science Fund.*
     `,
     date: "2024-05-12",
     category: "research",
@@ -61,7 +60,7 @@ When assembled into symmetric supercapacitor cells, the MXene electrodes deliver
 
 I’m now working on MXene-graphene hybrids to combine high conductivity with better structural stability. The future looks promising for hybrid flexible electronics and wearable energy devices.
 
-*This work was supported by the EU Horizon 2020 framework.*
+
     `,
     date: "2024-06-08",
     category: "project",
