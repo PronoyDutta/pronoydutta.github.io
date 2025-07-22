@@ -60,7 +60,6 @@ When assembled into symmetric supercapacitor cells, the MXene electrodes deliver
 
 I’m now working on MXene-graphene hybrids to combine high conductivity with better structural stability. The future looks promising for hybrid flexible electronics and wearable energy devices.
 
-
     `,
     date: "2024-06-08",
     category: "project",
