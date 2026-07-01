@@ -2,18 +2,22 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import CVPage from './pages/CVPage';
-import StoriesPage from './pages/StoriesPage';
-import StoryDetailPage from './pages/StoryDetailPage';
+import HighlightsPage from './pages/HighlightsPage';
+import PublicationsPage from './pages/PublicationsPage';
+import ExperiencePage from './pages/ExperiencePage';
+import RecentsPage from './pages/RecentsPage';
 
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-gray-50">
+      <div className="min-h-screen bg-dark-950">
         <Navigation />
         <Routes>
           <Route path="/" element={<CVPage />} />
-          <Route path="/stories" element={<StoriesPage />} />
-          <Route path="/stories/:id" element={<StoryDetailPage />} />
+          <Route path="/highlights" element={<HighlightsPage />} />
+          <Route path="/publications" element={<PublicationsPage />} />
+          <Route path="/experience" element={<ExperiencePage />} />
+          <Route path="/recents" element={<RecentsPage />} />
         </Routes>
       </div>
     </Router>

@@ -8,32 +8,31 @@ interface EducationCardProps {
 
 const EducationCard: React.FC<EducationCardProps> = ({ education }) => {
   return (
-    <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-200">
+    <div className="glass-card p-6">
       <div className="flex items-start justify-between mb-4">
         <div className="flex items-center gap-3">
-          <GraduationCap size={24} className="text-blue-600" />
+          <GraduationCap size={24} className="text-accent-blue" />
           <div>
-            <h3 className="text-lg font-semibold text-gray-900">{education.degree}</h3>
-            <p className="text-blue-600 font-medium">{education.institution}</p>
+            <h3 className="text-lg font-semibold text-dark-50">{education.degree}</h3>
+            <p className="text-accent-blue font-medium">{education.institution}</p>
           </div>
         </div>
-        <div className="text-right text-sm text-gray-600">
+        <div className="text-right text-sm text-dark-400">
           <div className="flex items-center gap-1 mb-1">
-            <Calendar size={14} />
+            <Calendar size={14} className="text-dark-500" />
             <span>{education.period}</span>
           </div>
           <div className="flex items-center gap-1">
-            <MapPin size={14} />
+            <MapPin size={14} className="text-dark-500" />
             <span>{education.location}</span>
           </div>
         </div>
       </div>
-      
       {education.details && (
         <ul className="space-y-1">
           {education.details.map((detail, index) => (
-            <li key={index} className="text-gray-700 text-sm">
-              <span className="text-blue-600 mr-2">•</span>
+            <li key={index} className="text-dark-200 text-sm">
+              <span className="text-accent-teal mr-2">•</span>
               {detail}
             </li>
           ))}

@@ -66,32 +66,46 @@ export const personalInfo: PersonalInfo = {
 
 export const recentActivities: Activity[] = [
   {
-    title: "Li-S Battery Workshop",
-    organization: "Fraunhofer IWS Dresden, Germany",
-    date: "November 2024",
-    description: "Poster presentation on \"Understamding the Effects of Polysulfide Solubility on Quasi Solid State S/Li2S Conversion in LiS Batteries\"",
-    type: "workshop"
+    title: "Contributed Talk at BeLi'26",
+    organization: "ETH Zurich, Switzerland",
+    date: "July 2026",
+    description: "Presented a contributed talk on Li-S battery mechanisms and solid-state interfaces at the BeLi'26 conference.",
+    type: "conference"
   },
   {
-    title: "Efficient Li-S Batteries",
-    organization: "University of Salzburg",
-    date: "April 2025",
-    description: "Attempting the next steps: Bulk Utilisation of Sulfur in Li-S Batteries ",
-    type: "mentoring"
-  },
-  {
-    title: "Open Source Contribution",
-    organization: "University of Salzburg",
-    date: "January 2024",
-    description: "Python pipeline on SWAXS data analysis for operando scattering experiments with LiS batteries",
+    title: "Synchrotron Beamtime at HZB",
+    organization: "HZB, BESSY II, Berlin, Germany",
+    date: "June 2026",
+    description: "Completed operando beamtime at the MySpot beamline session. The high-energy X-ray beam provided enough energy to reveal the secrets of solid-state Li-S batteries.",
     type: "project"
   },
   {
     title: "CPM Open Lab Day",
     organization: "University of Salzburg",
     date: "June 2025",
-    description: "Organised hands on experience on Zn hybrid battery assembly and testing for School Students",
+    description: "Organized hands-on experience on Zn hybrid battery assembly and testing for school students.",
     type: "workshop"
+  },
+  {
+    title: "Efficient Li-S Batteries",
+    organization: "University of Salzburg",
+    date: "April 2025",
+    description: "Attempting the next steps: Bulk Utilization of Sulfur in Li-S Batteries.",
+    type: "mentoring"
+  },
+  {
+    title: "Li-S Battery Workshop",
+    organization: "Fraunhofer IWS Dresden, Germany",
+    date: "November 2024",
+    description: "Poster presentation on \"Understanding the Effects of Polysulfide Solubility on Quasi Solid State S/Li2S Conversion in Li-S Batteries\".",
+    type: "workshop"
+  },
+  {
+    title: "Open Source Contribution",
+    organization: "University of Salzburg",
+    date: "January 2024",
+    description: "Python pipeline on SWAXS data analysis for operando scattering experiments with Li-S batteries.",
+    type: "project"
   }
 ];
 

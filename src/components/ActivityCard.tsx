@@ -10,51 +10,49 @@ const ActivityCard: React.FC<ActivityCardProps> = ({ activity }) => {
   const getIcon = (type: Activity['type']) => {
     switch (type) {
       case 'conference':
-        return <Presentation size={20} className="text-blue-600" />;
+        return <Presentation size={20} className="text-accent-blue" />;
       case 'workshop':
-        return <Users size={20} className="text-green-600" />;
+        return <Users size={20} className="text-accent-teal" />;
       case 'project':
-        return <Code size={20} className="text-purple-600" />;
+        return <Code size={20} className="text-accent-blue" />;
       case 'award':
-        return <Award size={20} className="text-yellow-600" />;
+        return <Award size={20} className="text-accent-gold" />;
       default:
-        return <Calendar size={20} className="text-gray-600" />;
+        return <Calendar size={20} className="text-dark-300" />;
     }
   };
 
-  const getTypeColor = (type: Activity['type']) => {
+  const getTypePill = (type: Activity['type']) => {
     switch (type) {
-      case 'conference':
-        return 'bg-blue-100 text-blue-800';
       case 'workshop':
-        return 'bg-green-100 text-green-800';
+        return 'pill-teal';
       case 'project':
-        return 'bg-purple-100 text-purple-800';
+        return 'pill';
       case 'award':
-        return 'bg-yellow-100 text-yellow-800';
+        return 'pill-gold';
+      case 'conference':
+        return 'pill';
       default:
-        return 'bg-gray-100 text-gray-800';
+        return 'pill';
     }
   };
 
   return (
-    <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-200">
+    <div className="glass-card p-6">
       <div className="flex items-start justify-between mb-4">
         <div className="flex items-center gap-3">
           {getIcon(activity.type)}
           <div>
-            <h3 className="text-lg font-semibold text-gray-900">{activity.title}</h3>
-            <p className="text-sm text-gray-600">{activity.organization}</p>
+            <h3 className="text-lg font-semibold text-dark-50">{activity.title}</h3>
+            <p className="text-sm text-dark-300">{activity.organization}</p>
           </div>
         </div>
-        <div className="text-right">
-          <span className={`px-2 py-1 rounded-full text-xs font-medium ${getTypeColor(activity.type)}`}>
-            {activity.type}
-          </span>
-          <p className="text-sm text-gray-500 mt-1">{activity.date}</p>
+        <div className="text-right flex-shrink-0 ml-4">
+          <span className={getTypePill(activity.type)}>{activity.type}</span>
+          <p className="text-sm text-dark-400 mt-1">{activity.date}</p>
         </div>
       </div>
-      <p className="text-gray-700 leading-relaxed">{activity.description}</p>
+      <p className="text-dark-200 leading-relaxed">{activity.description}</p>
     </div>
   );
 };
