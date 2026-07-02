@@ -2,8 +2,8 @@
   <defs>
     <!-- Dark Background Gradient -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a0a0f" />
-      <stop offset="100%" stop-color="#0e0e18" />
+      <stop offset="0%" stop-color="#050b14" />
+      <stop offset="100%" stop-color="#0a1526" />
     </linearGradient>
     
     <!-- Accent Gradient (Cyan to Teal) -->
@@ -25,28 +25,33 @@
   <!-- Background Squircle -->
   <rect x="16" y="16" width="480" height="480" rx="120" fill="url(#bgGrad)" />
 
-  <!-- The CV Duck Curve (Continuous single line plot) -->
-  <path d="M 280,240 
-           C 290,220 305,200 305,180 
-           C 305,140 270,140 250,140 
-           C 230,140 215,160 215,180 
-           C 190,175 160,170 145,185 
-           C 165,195 195,200 215,202 
-           C 215,225 195,245 175,270 
-           C 155,295 140,320 150,345 
-           C 165,370 210,380 256,380 
-           C 310,380 370,335 410,270 
-           C 425,245 425,230 405,235 
-           C 380,240 360,210 345,180 
-           C 335,160 325,160 315,180
-           C 305,200 290,220 280,240 Z" 
+  <!-- Outer Duck Body / CV Voltammogram Loop -->
+  <path d="M 195,215 
+           C 165,225 105,300 100,320 
+           C 95,335 170,395 240,395 
+           C 285,395 385,270 410,205 
+           C 420,180 300,110 280,135 
+           C 260,160 250,215 195,215 Z" 
         fill="none" 
         stroke="url(#accentGrad)" 
-        stroke-width="20" 
+        stroke-width="18" 
         stroke-linecap="round" 
         stroke-linejoin="round"
         filter="url(#glow)" />
 
-  <!-- Redox / Reference Point (Duck Eye) -->
-  <circle cx="260" cy="172" r="10" fill="#38bdf8" filter="url(#glow)" />
+  <!-- Head & Beak Loop -->
+  <path d="M 195,215 
+           C 170,195 165,175 105,165 
+           C 165,145 175,110 200,110 
+           C 230,110 260,135 260,165 
+           C 260,205 210,240 190,265" 
+        fill="none" 
+        stroke="url(#accentGrad)" 
+        stroke-width="18" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"
+        filter="url(#glow)" />
+
+  <!-- Duck Eye -->
+  <circle cx="198" cy="152" r="11" fill="#38bdf8" filter="url(#glow)" />
 </svg>
