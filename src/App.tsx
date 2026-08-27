@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './components/Navigation';
+import ScrollToTop from './components/ScrollToTop';
 import CVPage from './pages/CVPage';
 import HighlightsPage from './pages/HighlightsPage';
 import PublicationsPage from './pages/PublicationsPage';
@@ -10,6 +11,7 @@ import RecentsPage from './pages/RecentsPage';
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="min-h-screen bg-dark-950">
         <Navigation />
         <Routes>
